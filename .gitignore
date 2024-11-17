@@ -1,0 +1,12 @@
+MDK-ARM/E80
+*.axf
+*.dep
+*.hex
+*.htm
+*.lnp
+*.map
+*.sct
+*.crf
+*.d
+*.o
+*.iex         l
