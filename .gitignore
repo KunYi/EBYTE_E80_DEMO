@@ -9,4 +9,5 @@ MDK-ARM/E80
 *.crf
 *.d
 *.o
-*.iex         l
+*.iex
+docs/*.FCBak
