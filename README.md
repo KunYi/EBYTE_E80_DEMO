@@ -4,6 +4,12 @@ This repository documents my study and implementation of the EBYTE E80-x00M2213S
 
 ## Project Contents
 
+### Notes on DIO Pins
+The following are some key DIO pin functions I've identified during my study:
+- **DIO5/DIO6**: RF switch control pins. These pins are not exposed externally but need to be considered in software design for proper RF switching control.
+- [**DIO9(PIN22)**](https://github.com/KunYi/EBYTE_E80_DEMO/blob/main/Core/Inc/main.h#L68C9-L68C27): Interrupt signal pin. This needs to be properly connected in hardware design for interrupt handling.
+*Note: This is not a complete list of DIO functions. Please refer to the official documentation for full pin descriptions.*
+
 ### KiCAD v8 Resources
 - [Module Footprint](KiCAD/E80-x00M2213S.kicad_mod)
 - [Modificated STEP FILE](docs/E80-XXXM2213S_U.step), add pins
